@@ -1,0 +1,51 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/tableLayout1"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#00e2ff">
+
+<TableRow
+    android:id="@+id/tableRow1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:ems="18" >
+    </EditText>
+
+</TableRow>
+
+<View
+    android:layout_height="1dip"
+    android:background="#CCCCCC" />
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.1">
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>
+
+<View
+    android:layout_height="1dip"
+    android:background="#CCCCCC" />
+
+    <Button
+        android:id="@+id/btnRegis"
+        android:layout_width="185dp"
+        android:layout_height="60dp"
+        android:text="ลงประกาศสินค้า"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp" />
+
+</TableLayout>
